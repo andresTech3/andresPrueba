@@ -1,0 +1,77 @@
+
+.linkButton{
+    position:relative;
+    width: auto;
+    display:inline-block;
+    padding:20px 60px;
+    background:#444;
+    text-decoration:none;
+    font-size:1.3em;
+    margin:1em 0px;
+    color:#fff;
+    letter-spacing:0.1em;
+    transition:0.5s;
+}
+
+.linkButton:hover{
+    letter-spacing:0.25em;
+    color:var(--clr);
+    border: 2px solid var(--clr) ;
+    box-shadow: 0 0 35px var(--clr);
+}
+
+.linkButton::before{
+    content: '';
+    position:absolute;
+    background:#27282c;
+    inset:2;
+}
+
+.linkButton span {
+    position:relative;
+    z-index:1;
+}
+
+.linkButton i {
+    position:absolute;
+    top:-3.5px;
+    inset:0;
+    display:block;
+}
+
+.linkButton i::before{
+    content: "";
+    position:absolute;
+    top:-6.5px;
+    left:80%;
+    border:2px solid var(--clr);
+    height:8px;
+    width:20px;
+    background:#27282c;
+    transform:translateX(-50%);
+    transition:0.5s;
+}
+
+.linkButton:hover i::before{
+    width: 30px;
+    left:20%;
+}
+
+.linkButton i::after{
+    content: "";
+    position:absolute;
+    bottom:-6.5px;
+    left:20%;
+    border:2px solid var(--clr);
+    height:8px;
+    width:20px;
+    background:#27282c;
+    transform:translateX(-50%);
+    transition:0.5s;
+}
+
+.linkButton:hover i::after{
+    width: 30px;
+    left:80%;
+}
+

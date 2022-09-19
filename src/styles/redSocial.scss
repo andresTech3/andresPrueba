@@ -1,0 +1,39 @@
+
+.content-red-social{
+        width: 100%;
+        padding: 1em 0px ;
+        display:block;
+        .red-social{
+            display:flex;
+            width:100%;
+            
+            align-items: center;
+            margin-bottom: 0.6em;
+            .content-img-red{
+                width: 50%;
+                text-align: center;
+            }
+            .content-info-red{
+                text-align: center;
+                width: 50%;
+                a{
+                    font-size: 1.5em;
+                    display:block;
+                    text-decoration: none;
+                    color: #08fdd8;
+                }
+                a:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+}
+
+@media only screen and (max-width : 968px) {
+    .red-social{
+        justify-content: space-around;
+    }
+    .content-red-social{
+        position: relative;
+    }
+}

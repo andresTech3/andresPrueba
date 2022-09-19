@@ -1,0 +1,13 @@
+
+.inputBox .inputSearch:focus ~ .spanPlaceHolder
+{
+    color:#08fdd0;
+    transform:translateX(10px);
+    transform:translateY(-7px);
+    transition: 0.5s;
+    font-size: 0.65em;
+    padding:0 8px;
+    background:#1D1D1D;
+    border-left:1px solid #08fdd0;
+    border-right:1px solid #08fdd0;
+}

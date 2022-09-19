@@ -1,0 +1,16 @@
+.article{
+    padding: 0.9em;
+    .article-title{
+        font-size: 1.6em;
+        text-align: center;
+    }
+    .hr-article{
+        margin: 0.9em 0px;
+    }
+    .containerPosts{
+        display:flex;
+        flex-wrap: wrap;
+        padding: 2em;
+        width:100%;
+    }
+}
