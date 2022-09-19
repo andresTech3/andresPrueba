@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/andres-tech/static/css/main.226be637.css",
-    "main.js": "/andres-tech/static/js/main.8de1a41f.js",
+    "main.css": "/andres-tech/static/css/main.af7e77dc.css",
+    "main.js": "/andres-tech/static/js/main.96597a08.js",
     "index.html": "/andres-tech/index.html",
-    "main.226be637.css.map": "/andres-tech/static/css/main.226be637.css.map",
-    "main.8de1a41f.js.map": "/andres-tech/static/js/main.8de1a41f.js.map"
+    "main.af7e77dc.css.map": "/andres-tech/static/css/main.af7e77dc.css.map",
+    "main.96597a08.js.map": "/andres-tech/static/js/main.96597a08.js.map"
   },
   "entrypoints": [
-    "static/css/main.226be637.css",
-    "static/js/main.8de1a41f.js"
+    "static/css/main.af7e77dc.css",
+    "static/js/main.96597a08.js"
   ]
 }
