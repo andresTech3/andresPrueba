@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AndresTech/static/css/main.226be637.css",
+    "main.js": "/AndresTech/static/js/main.e803394d.js",
+    "index.html": "/AndresTech/index.html",
+    "main.226be637.css.map": "/AndresTech/static/css/main.226be637.css.map",
+    "main.e803394d.js.map": "/AndresTech/static/js/main.e803394d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.226be637.css",
+    "static/js/main.e803394d.js"
+  ]
+}
