@@ -1,11 +1,9 @@
 import React from 'react'
 import SearchItems from '../components/SearchItems'
 import NewBlogs from '../components/NewBlogs'
-import FormBlogs from '../components/FormBlogs'
+
 import useGetNewBlogs from '../hook/useGetNewBlogs'
-import ModalNewEntryBlogs from '../components/ModalNewEntryBlogs'
-import {FaPenFancy} from "react-icons/fa"
-import {TiDelete} from "react-icons/ti"
+
 import { ContainerNewBlogs, ContainerBlogsInfo, ContainerRegisterBlogs, TitleCategoriaBlogs,ButtonNewEntryBlog } from '../style/ContainerBlogs.element'
 
 
@@ -14,8 +12,6 @@ function ContainerBlogs() {
     search,
     setSearch,
     searchArr,
-    modalEntryBlog,
-    setModalEntryBlog,
   } = useGetNewBlogs();
 
   // const handleOpenModal = () =>{
