@@ -4,7 +4,7 @@ import NewBlogs from '../components/NewBlogs'
 
 import useGetNewBlogs from '../hook/useGetNewBlogs'
 
-import { ContainerNewBlogs, ContainerBlogsInfo, ContainerRegisterBlogs, TitleCategoriaBlogs,ButtonNewEntryBlog } from '../style/ContainerBlogs.element'
+import { ContainerNewBlogs, ContainerBlogsInfo, ContainerRegisterBlogs, TitleCategoriaBlogs} from '../style/ContainerBlogs.element'
 
 
 function ContainerBlogs() {

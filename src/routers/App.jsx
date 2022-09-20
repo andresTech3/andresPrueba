@@ -15,8 +15,7 @@ import Error404 from '../pages/Error404';
 import Diseños from '../pages/Diseños'
 import Css_View from '../pages/CssView/Css_View';
 
-//blogs
-import ArrayMetodos from '../Blogs/ArrayMetodos'
+
 
 
 
@@ -35,8 +34,6 @@ function App() {
             <Route exact path='/Dis' element={<Diseños/>}/>
             <Route exact path='/CssView' element={<Css_View/>}/>
             <Route exact path='*' element={<Error404/>}/>
-            {/* //blogs */}
-            <Route exact path='/array_y_metodos' element={<ArrayMetodos/>}/>
           </Routes>
           <Footer/>
         </BrowserRouter>

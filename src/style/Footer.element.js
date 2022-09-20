@@ -6,6 +6,10 @@ export const ContainerFooter = styled.footer`
     text-align:center;
 `
 
+export const DepositFooter = styled.div`
+    
+`
+
 export const TextFooter = styled.h3`
     opacity : 0.5;
 `
