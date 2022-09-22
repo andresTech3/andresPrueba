@@ -3,7 +3,7 @@ import CreativeCss from '../../components/creativeCss/CreativeCss'
 
 import {DescTitle, ImgBg, TitleGreat, WagonHeader} from './Css_View.element'
 
-function Css_View() {
+function CssView() {
   return (
     <>
         <WagonHeader>
@@ -22,4 +22,4 @@ function Css_View() {
   )
 }
 
-export default Css_View
+export default CssView

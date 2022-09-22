@@ -13,12 +13,7 @@ import Blogs from '../pages/Blogs';
 import Footer from '../containers/Footer';
 import Error404 from '../pages/Error404';
 import Diseños from '../pages/Diseños'
-import Css_View from '../pages/CssView/Css_View';
-
-
-
-
-
+import CssView from '../pages/CssView/Css_View';
 
 function App() {
   return (
@@ -32,8 +27,8 @@ function App() {
             <Route exact path='/Productos' element={<Productos/>}/>
             <Route exact path='/Blogs' element={<Blogs/>}/>
             <Route exact path='/Dis' element={<Diseños/>}/>
-            <Route exact path='/CssView' element={<Css_View/>}/>
-            <Route exact path='*' element={<Error404/>}/>
+            <Route exact path='/CssView' element={<CssView/>}/>
+            <Route exact element={<Error404/>}/>
           </Routes>
           <Footer/>
         </BrowserRouter>
